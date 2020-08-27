@@ -118,12 +118,9 @@ if __name__ == "__main__":
 		
 
 		elif "wikipedia" in query:
-			speak("What i have to search?")
-			one = takeCommand()
 			speak("Searching...")
-			query = query.replace("wikipedia",one)
+			query = query.replace("wikipedia","")
 			result = wikipedia.summary(query,sentences =2)
-			print()
 			print(result)
 			speak(result)
 
