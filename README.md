@@ -1,5 +1,6 @@
 # MyJarvis
 This is a AI assistant made in python.
+It will work on voice and do various task for u.
 
 Work it can do---
 
